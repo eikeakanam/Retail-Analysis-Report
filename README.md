@@ -130,11 +130,35 @@ These relationships form the basis for creating powerful visualizations and cond
 ___
 The E-Tech Retail Analysis project comprises three insightful reports: Sales, Profis, and Orders.
 
-A pictorial overview of both reports is displayed below:
+A pictorial overview of the reports is displayed below:
 |Sales|Profit|Orders|
 |----------|--------------|--------------|
 |![SALES REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e9aa9f62-c3a8-4ff2-ab80-e72e8ad238ea)|![PROFIT REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e5960de7-8def-4ac3-b304-a86921a2e35a)|![ORDERS REPPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/efbd524b-3e9e-4ae5-bac5-435b09db63b0)|
 
-![SALES REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e9aa9f62-c3a8-4ff2-ab80-e72e8ad238ea)
-![PROFIT REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e5960de7-8def-4ac3-b304-a86921a2e35a)
-![ORDERS REPPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/efbd524b-3e9e-4ae5-bac5-435b09db63b0)
+### 3.1 Sales Report
+### Key Insights
+
+**Sales Overview:**
+- Cumulative sales from 2000 to 2023 reached $8.9 million, with an average annual sale of $2.2 million and a remarkable year-over-year growth rate of 41.8% over the four-year period.
+- Approximately $321,000, or 3.6% of total sales, were returned, resulting in a net sales figure of $8.6 million, representing 97% of the total sales from 2020 to 2023.
+- Total sales for the current year (2023) stand at $2,852,360, marking a substantial 32% increase compared to the average annual sales and a notable 27.9% growth compared to the total sales for the same period in the previous year (2022).
+- Net sales for December 2023 amount to $321,611, reflecting a 14.3% decrease from November 2023 but showing a 15.9% improvement from December 2022.
+
+**Sales Trends:**
+- Peak sales occur over the weekend, with Saturday and Sunday collectively contributing 32% ($2.8 million) to the total sales.
+- The last quarter of the year sees the highest sales, with November, October, and December leading in terms of revenue.
+
+**Customer Segmentation:**
+- Corporate customers contribute significantly, accounting for around 38.5% ($3 million) of total sales from 2020 to 2023, closely followed by Home Office customers, contributing 24.1% ($2 million).
+- Customers across all four segments spent the most on technology related products then furniiture.
+- The top three customers are Gordon Brandt, Glen Caldwell, and Rosemary O'Brien.
+
+**Regional Performance:**
+- Sales distribution across the Central, East, and West regions is relatively balanced, with the Central region leading at approximately 28% and total sales of $3 million.
+- In the Central region, 44% of total sales were attributed to Technology products.
+- California (CA), New York (NY), and Illinois (IL) lead in terms of revenue.
+
+**Product Category Insights:**
+- Technology products and Furniture dominate product categories, with technology products generating about $4 million, representing 39.3% of total sales, and Furniture contributing 35% with a total sales figure of approximately $3 million.
+- Top three products by total sales are Global Troy Tilter, Riverside Palais Bookcase, and Canon advanced copier.
+
