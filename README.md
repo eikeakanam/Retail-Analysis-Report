@@ -1,4 +1,4 @@
-# Retail-Analysis-Report
+# E-Tech Retail Analysis Report
 ## Presented by: Ekene Christian Ikeakanam
 ___
 ## INTRODUCTION AND PROBLEM STATEMENT
@@ -61,3 +61,66 @@ Sales: The total sales value for the order.
 ___
 
 ## 1. Data Gathering and Preparation
+### 1.1 Import Datasets
+The dataset, stored in an Excel file, comprises three tables: Orders, Returns, and Regions. To import the data into Power BI Desktop, the Get Data feature was utilized. Subsequently, the three necessary tables were selected and loaded into the Power Query editor for further transformation. The import storage mode was chosen to eliminate the need for data refreshes.
+
+### 1.2 Merging of Tables
+The merging process involved the following operations:
+
+**Orders and Returns Tables:**
+- An Inner Join was applied to the Orders and Returns tables to create a new query. This operation focused on matching records of returned orders using the Order ID as the key identifier on both tables.
+
+**Orders and Regions Tables:**
+- A Right Outer Join was executed to merge the Orders and Regions tables, resulting in a new query named "Regional Manager." This operation introduced an additional column containing information about regional managers for all records in the Orders dataset. The key identifier for this operation was the region on both tables.
+
+Upon completing these merge operations, the query load was disabled for both new queries (tables) to finalize the data integration.
+
+### 1.3 Data Cleaning and Transformation: 
+Several data transformation procedures were applied to enhance the quality of the dataset, including:
+- Identification and removal of unwanted columns to minimize the model size
+- Rename columns and update data types as required
+- Combining First Name and Last names on the Regions table onto a single column called Full Name
+- Creation of additional columns: Season (Summer, Winter, Autumn or Spring) using the OrderDate column and Order Processing days which is the number of days between Order and Shipping Date
+- Cleaning of data by dealing with missing / null values, removal of duplicates and ensured only valid records were added to the model.
+- Checked the quality and distribution of data using Column Quality, Profile and Distribution feature in Power Query Editor.
+
+## 2. Data Modelling
+
+The restructuring of the dataset involved transforming the original model into a standard Star Schema, ensuring a more efficient and logical organization of data. DEfualt schema is displayed below
+![Sales Order Model](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/dfd85fa1-0292-4c41-99bb-9abaf73cb465)
+
+
+The key steps taken are detailed below:
+
+### 2.1 Creation of a Date Table:
+A dedicated Date Table was created using the Calendar function. This table includes all dates within the range of the MIN(Order Date) and MAX(Shipping Date) columns from the Orders table. The Date Table incorporates essential time-based attributes such as Order Date, Year, Month, Quarter, and Day. Establishing a relationship with the Order Date column and Shipping Date on the Orders table facilitates time intelligence analysis, enabling insights into trends, seasonality, and comparisons across different time periods.
+
+### 2.2 Fact Table Modeling:
+- **Orders Table:**
+The Orders table serves as a primary fact table, capturing information related to customer orders. It includes data such as Order ID, Order Priority, Discount, Unit Price, Shipping Cost, Customer ID, Product details, Profit, and Sales.
+
+- **Returns Table:**
+The Returns table contains information about returned orders, including the Order ID and associated return status.
+
+- **Returned Orders Table:**
+A new table, Returned Orders, was created as a result of merging the Orders and Returns tables. This table helps link orders with their corresponding return information.
+
+- **Regional Orders Table:**
+The Regional Orders table was formed by merging the Orders table with the Regions table using a Right Outer Join. This operation introduced additional details about regional managers, enhancing the dataset's analytical capabilities.
+
+### 2.3 Dimension Table Modeling:
+- **Dates Table:**
+The Dates table, created in the first step, functions as the primary dimension table. It provides a comprehensive set of date-related attributes crucial for time-based analysis.
+
+- **Regions Table:**
+The Regions table serves as another dimension table, offering details about different regions and their respective managers.
+
+### 2.4 Relationship Establishment:
+Relationships were established between the following tables:
+
+- Orders table and Dates table (using Order Date and Date columns)
+- Orders table and Returned Orders table (using Order ID)
+- Orders table and Regions table (using Region)
+- Returned Orders table and Returns table (using Order ID)
+  
+These relationships form the basis for creating powerful visualizations and conducting insightful analyses within Power BI, aligning with the principles of a Star Schema for optimal data modeling.
