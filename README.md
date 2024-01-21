@@ -61,6 +61,7 @@ Sales: The total sales value for the order.
 ___
 
 ## 1. Data Gathering and Preparation
+
 ### 1.1 Import Datasets
 The dataset, stored in an Excel file, comprises three tables: Orders, Returns, and Regions. To import the data into Power BI Desktop, the Get Data feature was utilized. Subsequently, the three necessary tables were selected and loaded into the Power Query editor for further transformation. The import storage mode was chosen to eliminate the need for data refreshes.
 
@@ -85,7 +86,7 @@ Several data transformation procedures were applied to enhance the quality of th
 - Checked the quality and distribution of data using Column Quality, Profile and Distribution feature in Power Query Editor.
 
 ## 2. Data Modelling
-
+___
 The restructuring of the dataset involved transforming the original model into a standard Star Schema, ensuring a more efficient and logical organization of data. DEfualt schema is displayed below
 ![Sales Order Model](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/dfd85fa1-0292-4c41-99bb-9abaf73cb465)
 
@@ -124,3 +125,16 @@ Relationships were established between the following tables:
 - Returned Orders table and Returns table (using Order ID)
   
 These relationships form the basis for creating powerful visualizations and conducting insightful analyses within Power BI, aligning with the principles of a Star Schema for optimal data modeling.
+
+## 3. ANALYSIS AND VISUALIZATION
+___
+The E-Tech Retail Analysis project comprises three insightful reports: Sales, Profis, and Orders.
+
+A pictorial overview of both reports is displayed below:
+|Sales|Profit|Orders|
+|----------|--------------|--------------|
+|![SALES REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e9aa9f62-c3a8-4ff2-ab80-e72e8ad238ea)|![PROFIT REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e5960de7-8def-4ac3-b304-a86921a2e35a)|![ORDERS REPPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/efbd524b-3e9e-4ae5-bac5-435b09db63b0)|
+
+![SALES REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e9aa9f62-c3a8-4ff2-ab80-e72e8ad238ea)
+![PROFIT REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e5960de7-8def-4ac3-b304-a86921a2e35a)
+![ORDERS REPPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/efbd524b-3e9e-4ae5-bac5-435b09db63b0)
