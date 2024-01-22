@@ -133,7 +133,7 @@ The E-Tech Retail Analysis project comprises three insightful reports: Sales, Pr
 A pictorial overview of the reports is displayed below:
 |Sales|Profit|Orders|
 |----------|--------------|--------------|
-|![SALES REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e9aa9f62-c3a8-4ff2-ab80-e72e8ad238ea)|![PROFIT REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e5960de7-8def-4ac3-b304-a86921a2e35a)|![ORDERS REPPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/efbd524b-3e9e-4ae5-bac5-435b09db63b0)|
+|![Saless](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/fe2ce25c-3bdb-4968-803c-2fc0164ce2f9)|![PROFIT REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e5960de7-8def-4ac3-b304-a86921a2e35a)|![Orderss](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/9b081f4a-eb04-403a-a682-1a18bf37c7e7)|
 
 ### 3.1 Sales Report
 ### Key Insights
@@ -157,8 +157,67 @@ A pictorial overview of the reports is displayed below:
 - Sales distribution across the Central, East, and West regions is relatively balanced, with the Central region leading at approximately 28% and total sales of $3 million.
 - In the Central region, 44% of total sales were attributed to Technology products.
 - California (CA), New York (NY), and Illinois (IL) lead in terms of revenue.
-
+  
 **Product Category Insights:**
 - Technology products and Furniture dominate product categories, with technology products generating about $4 million, representing 39.3% of total sales, and Furniture contributing 35% with a total sales figure of approximately $3 million.
 - Top three products by total sales are Global Troy Tilter, Riverside Palais Bookcase, and Canon advanced copier.
 
+### 3.2 Profits Report
+### Key Insights
+
+**Profit Analysis:**
+- The total profit for the period is $1,312,442, exhibiting a robust year-over-year growth of 45.6%.
+- Profits consistently peak in the fourth quarter (October - December), aligning with the period of highest sales.
+- The most profitable products are Global Troy Tilter, Fellowes PB500, and GBC Docubind Machine.
+- Technology products emerge as the most profitable across most regions, except the South
+
+**Returns Impact:**
+- Returns impacted profits, resulting in $22,535 in returned profits. The net profit, however, remained strong at $1,289,907.
+Profit Margins:
+- The profit margin stands at 14.7%, showcasing the profitability of the business operations.
+
+**Yearly and Monthly Performance:**
+- The net profit for the current year (2023) is $435,653, reflecting a substantial 23.2% increase compared to the same period last year (2022).
+- In December 2023, net profit reached $74,728, indicating a 26.5% increase from the same month in the previous year and a 26.6% decline from November 2023.
+Profit Margin Trend:
+- Over the years, there has been a consistent and steady increase in the profit margin, emphasizing the efficiency and effectiveness of the business.
+
+**Regional Profit Contributions:**
+- The Central region dominates profit contributions, accounting for 40% of the total profits, closely followed by the East region with $378,000.
+- The top three states contributing the most profits are Illinois (IL), New York (NY), and Texas (TX).
+
+**Discount and Sales Relationship:**
+- There is a clear correlation between discounts and sales, indicating that products with lower discounts result in higher sales and, consequently, higher profits.
+
+### 3.3 Orders Report
+### Key Insights
+**Order Fulfilment and Returns Analysis:**
+
+- The total number of orders processed is 9,426, with only 98 orders returned and 9,328 successfully fulfilled.
+Fulfilment Rates:
+- The average order fulfilment rate is an impressive 98.8%, highlighting the efficiency of order processing. The return rate is low, standing at about 1.2%.
+- It takes an average of 2 days to complete the processing of an Order from Order Date to Shipping date.
+- The highest order fulfilment rate was recorded in the year 2020 with 99.2% and the lowest in the year 2021 at 98.7%.
+- There was a 0.1% decline in the fulfilment in the current year 2023 when compared to the same period the previous year 2022.
+- The most returns occured in the current year 2023 as 33 orders were unfilfiled. 
+
+**Customer Segment Analysis**
+- Corporate customers placed and completed the most orders over this period 
+- Approximate 29% of the total returs were from orders placed by Home Office customers, closely followed by 27% from Small Businesses. 
+
+**Regional Performance:**
+
+- Regional analysis indicates that the Central region boasts the highest order fulfilment rate at 97%, while the South region experiences a slightly lower rate at 94%.
+- The Central region dominates order distribution, contributing 30.7% of the total orders, closely followed by the East region.
+- The West region records the highest number of returned orders, constituting approximately 44% of the total returns, closely followed by the East region.
+- In terms of specific locations, the highest orders were received from customers in CA, TX, IL, NY and Fl respectively. Orders from these five states accounted for about 38% of the total orders.
+
+**Product Preferences:**
+- Across all regions, technology products emerge as the most ordered items, indicating consistent customer demand.
+- Most ordered items are Global Leather Tilter, Bevis Conference Tables and Boxoffice Meeting Table while the highest returned products were: 80Min Slim Jewel Case CD-R, Eldon Simplefile Boxoffice, Xerox 197 and 1983 respectively
+
+**Shipping Metrics:**
+- The preferred ship mode for customers is Regular Air, accounting for approximately 75% of orders. Interestingly, Regular Air is also the most cost-effective shipping option, with an average cost of $6.9.
+- The average shipping cost per order is $13, reflecting the overall cost efficiency of the shipping process.
+- The average order processing time is 2 days, demonstrating a quick turnaround for order fulfilment.
+- A significant portion (73%) of returned orders were originally shipped using Regular Air, suggesting a potential correlation between shipping method and returns.
