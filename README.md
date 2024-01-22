@@ -144,6 +144,8 @@ A pictorial overview of the reports is displayed below:
 - Total sales for the current year (2023) stand at $2,852,360, marking a substantial 32% increase compared to the average annual sales and a notable 27.9% growth compared to the total sales for the same period in the previous year (2022).
 - Net sales for December 2023 amount to $321,611, reflecting a 14.3% decrease from November 2023 but showing a 15.9% improvement from December 2022.
 
+![S_Dashboard](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/0efb3cfe-7b5a-4cac-acb2-32b219bfa5c8)
+
 **Sales Trends:**
 - Peak sales occur over the weekend, with Saturday and Sunday collectively contributing 32% ($2.8 million) to the total sales.
 - The last quarter of the year sees the highest sales, with November, October, and December leading in terms of revenue.
@@ -152,6 +154,8 @@ A pictorial overview of the reports is displayed below:
 - Corporate customers contribute significantly, accounting for around 38.5% ($3 million) of total sales from 2020 to 2023, closely followed by Home Office customers, contributing 24.1% ($2 million).
 - Customers across all four segments spent the most on technology related products then furniiture.
 - The top three customers are Gordon Brandt, Glen Caldwell, and Rosemary O'Brien.
+
+![Sales 1](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/b83af73e-f360-4245-81e7-1be44d93d705)
 
 **Regional Performance:**
 - Sales distribution across the Central, East, and West regions is relatively balanced, with the Central region leading at approximately 28% and total sales of $3 million.
@@ -162,6 +166,8 @@ A pictorial overview of the reports is displayed below:
 - Technology products and Furniture dominate product categories, with technology products generating about $4 million, representing 39.3% of total sales, and Furniture contributing 35% with a total sales figure of approximately $3 million.
 - Top three products by total sales are Global Troy Tilter, Riverside Palais Bookcase, and Canon advanced copier.
 
+![Sales2](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/2dc844ec-d481-4027-bb20-50ccc339ca5e)
+
 ### 3.2 Profits Report
 ### Key Insights
 
@@ -170,6 +176,8 @@ A pictorial overview of the reports is displayed below:
 - Profits consistently peak in the fourth quarter (October - December), aligning with the period of highest sales.
 - The most profitable products are Global Troy Tilter, Fellowes PB500, and GBC Docubind Machine.
 - Technology products emerge as the most profitable across most regions, except the South
+
+![P_Dash](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/686dff98-7c83-4d52-81ea-1589e54192b1)
 
 **Returns Impact:**
 - Returns impacted profits, resulting in $22,535 in returned profits. The net profit, however, remained strong at $1,289,907.
@@ -182,12 +190,16 @@ Profit Margins:
 Profit Margin Trend:
 - Over the years, there has been a consistent and steady increase in the profit margin, emphasizing the efficiency and effectiveness of the business.
 
+![Profit1](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/f0eca61d-1cc0-4ad8-bec8-f63e4a9b9a13)
+
 **Regional Profit Contributions:**
 - The Central region dominates profit contributions, accounting for 40% of the total profits, closely followed by the East region with $378,000.
 - The top three states contributing the most profits are Illinois (IL), New York (NY), and Texas (TX).
 
 **Discount and Sales Relationship:**
 - There is a clear correlation between discounts and sales, indicating that products with lower discounts result in higher sales and, consequently, higher profits.
+
+![PRofit2](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/d0cfa633-7dd0-4b28-bf71-01a89432c8cf)
 
 ### 3.3 Orders Report
 ### Key Insights
@@ -201,6 +213,8 @@ Fulfilment Rates:
 - There was a 0.1% decline in the fulfilment in the current year 2023 when compared to the same period the previous year 2022.
 - The most returns occured in the current year 2023 as 33 orders were unfilfiled. 
 
+![Orders1](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/6052394f-d10d-4455-b309-9583bde469b8)
+
 **Customer Segment Analysis**
 - Corporate customers placed and completed the most orders over this period 
 - Approximate 29% of the total returs were from orders placed by Home Office customers, closely followed by 27% from Small Businesses. 
@@ -212,6 +226,8 @@ Fulfilment Rates:
 - The West region records the highest number of returned orders, constituting approximately 44% of the total returns, closely followed by the East region.
 - In terms of specific locations, the highest orders were received from customers in CA, TX, IL, NY and Fl respectively. Orders from these five states accounted for about 38% of the total orders.
 
+![Orders2](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/476ee24b-d2b8-4914-8c15-ebef89b3266e)
+
 **Product Preferences:**
 - Across all regions, technology products emerge as the most ordered items, indicating consistent customer demand.
 - Most ordered items are Global Leather Tilter, Bevis Conference Tables and Boxoffice Meeting Table while the highest returned products were: 80Min Slim Jewel Case CD-R, Eldon Simplefile Boxoffice, Xerox 197 and 1983 respectively
@@ -221,3 +237,5 @@ Fulfilment Rates:
 - The average shipping cost per order is $13, reflecting the overall cost efficiency of the shipping process.
 - The average order processing time is 2 days, demonstrating a quick turnaround for order fulfilment.
 - A significant portion (73%) of returned orders were originally shipped using Regular Air, suggesting a potential correlation between shipping method and returns.
+
+![Orders3](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/c2bbb6dc-3f34-4ad8-8068-dbf3f583d631)
