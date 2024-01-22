@@ -243,6 +243,12 @@ Fulfilment Rates:
 
 ![Orders3](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/c2bbb6dc-3f34-4ad8-8068-dbf3f583d631)
 
+## 4. Publish Report and Creation of Dashboard
+___
+The ETech Annual Retail Sales report was developed in Power BI Desktop and later published to my Workspace on Power BI Service. 
+
+Following this, a dashboard was created within my Power BI Service workspace, by pinning visuals from the report
+
 ## 5. Conclusion and Recommendation
 ___
 
