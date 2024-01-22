@@ -87,9 +87,7 @@ Several data transformation procedures were applied to enhance the quality of th
 
 ## 2. Data Modelling
 ___
-The restructuring of the dataset involved transforming the original model into a standard Star Schema, ensuring a more efficient and logical organization of data. DEfualt schema is displayed below
-![Sales Order Model](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/dfd85fa1-0292-4c41-99bb-9abaf73cb465)
-
+The restructuring of the dataset involved transforming the original model into a standard Star Schema, ensuring a more efficient and logical organization of data.
 
 The key steps taken are detailed below:
 
@@ -125,6 +123,11 @@ Relationships were established between the following tables:
 - Returned Orders table and Returns table (using Order ID)
   
 These relationships form the basis for creating powerful visualizations and conducting insightful analyses within Power BI, aligning with the principles of a Star Schema for optimal data modeling.
+The default and updated model schema is displayed below
+
+|Default|Updated|
+|----------|--------------|
+|![Sales Order Model](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/dfd85fa1-0292-4c41-99bb-9abaf73cb465)|![Model11](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/a95198dc-2aee-44aa-a6d1-3d64ea7c6572)|
 
 ## 3. ANALYSIS AND VISUALIZATION
 ___
