@@ -138,6 +138,8 @@ A pictorial overview of the reports is displayed below:
 |----------|--------------|--------------|
 |![Saless](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/fe2ce25c-3bdb-4968-803c-2fc0164ce2f9)|![PROFIT REPORT](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/e5960de7-8def-4ac3-b304-a86921a2e35a)|![Orderss](https://github.com/eikeakanam/Retail-Analysis-Report/assets/75729930/9b081f4a-eb04-403a-a682-1a18bf37c7e7)|
 
+### LINK TO DETAILED POWER BI REPORT >>> [ETech Retail Analysis Report](https://app.powerbi.com/groups/me/reports/985511d6-f40d-48a3-b7e6-c8a349f0c021?ctid=ac5ac3e2-e369-4329-952c-a36e8474e997&pbi_source=linkShare&bookmarkGuid=d8668bc9-d3e3-4bf0-86e4-fb05c629f2d8)
+
 ### 3.1 Sales Report
 ### Key Insights
 
